@@ -29,6 +29,10 @@ requirements:
     - pandas >=2.2.2,<3
     - matplotlib-base >=3.8.4
     - pyarrow >=16.0
+  run_constraints:
+    # optional PDF output for the RCx report (pip extra camber-toolkit[pdf]); conda users install
+    # weasyprint from conda-forge, which brings Pango
+    - weasyprint >=68.1
 
 tests:
   - python:
