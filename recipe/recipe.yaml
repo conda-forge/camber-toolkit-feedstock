@@ -1,6 +1,6 @@
 context:
   name: camber-toolkit
-  version: "0.109.1"
+  version: "0.110.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name|replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: a66985ea3c9ab5ea9ad4f77cd11af87f795503bba43a4201c8a92b00ea09ae81
+  sha256: 1bb42f72b085c7bb152e3ec08b2f4e5a894e300466396569ca4944265f739760
 
 build:
   noarch: python
